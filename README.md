@@ -1,6 +1,6 @@
-# Web Automation 
+# Functional Testing Case
 
-Created this project to automate web testing ,screen recording  screenshot as part of our software testing process.
+This project to automate web testing ,screen recording , screenshot as part of our software testing process.
 
 ## Contents
 
@@ -14,7 +14,7 @@ Created this project to automate web testing ,screen recording  screenshot as pa
 
 ## Project Description
 
-In this project, we developed a Python script that automates interactions with a web application and records the screen during execution. The script uses Selenium for web automation and OpenCV for screen recording. This approach allows us to test web application functionality and capture the entire process for review and debugging.
+In this project, i developed a Python script that automates interactions with a web application and records the screen during execution. The script uses Selenium for web automation and OpenCV for screen recording. This approach allows us to test web application functionality and capture the entire process for review and debugging.
 
 ## Basic Structure
 
