@@ -1,6 +1,6 @@
-# Web Automation and Screen Recording System
+# Web Automation 
 
-We created this project to automate web testing and screen recording as part of our software testing process.
+We created this project to automate web testing ,screen recording  screenshot as part of our software testing process.
 
 ## Contents
 
