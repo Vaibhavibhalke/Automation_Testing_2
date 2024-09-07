@@ -1,18 +1,70 @@
-# Automated Functional Testing 
+# Web Automation and Screen Recording System
 
-This project automates a functional test of a web application  records and takes  screenshot during the test execution. The test script uses Selenium for browser automation and OpenCV along with MSS for screen recording.
+We created this project to automate web testing and screen recording as part of our software testing process.
 
-## Features
+## Contents
 
-- **Screen Recording:** Records the screen while the test is running.
-- **Web Automation:** Automates the process of logging in, navigating through the web application, uploading a file, and validating data.
-- **Screenshot Capture:** Takes a screenshot of  the web application.
+- Project Description
+- Basic Structure
+  - Functionalities
+  - Screenshots of the Implementation
+- Tech Stack
+- How to Run
+  
 
-## Prerequisites
+## Project Description
 
-Before running the script, ensure that you have the following installed:
+In this project, we developed a Python script that automates interactions with a web application and records the screen during execution. The script uses Selenium for web automation and OpenCV for screen recording. This approach allows us to test web application functionality and capture the entire process for review and debugging.
 
-- Python 3.x
-- Pip (Python package installer)
+## Basic Structure
+
+### Functionalities
+
+- **Screen Recording:**
+  - Records the screen while the test is running and saves the recording as a video file (`test_recording.mp4`).
+
+- **Web Automation:**
+  - Initializes a Selenium WebDriver for Chrome.
+  - Navigates to a specified URL and performs login using predefined credentials.
+  - Automates navigation to a file upload section and uploads a file.
+  - Validates the upload and captures a screenshot of the final state of the web application.
+
+- **Error Handling:**
+  - Logs errors and information throughout the script to facilitate debugging and monitoring.
+
+#### Final Output Screenshot
+
+<kbd><img src="C:/Users/HP/Desktop/Automate_Testing/final_output.png" width="800px" alt="Final Output Screenshot"></kbd>
+
+## Tech Stack
+
+- **Testing Tools:** Selenium, OpenCV
+
+## How to Run
+
+1. **Install Dependencies:**
+   - Ensure you have Python installed.
+   - Install the necessary Python packages using `pip`:
+
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+3. **Update Configuration:**
+   - Ensure that the file paths in the script (`demo-data.xlsx`, `final_output.png`) are correct and adjust if necessary.
+
+4. **Run the Script:**
+   - Execute the Python script using:
+
+     ```bash
+     python script_name.py
+     ```
+
+   - The script will start recording the screen, run the web automation test, and save the results.
+
+5. **Check Results:**
+   - The screen recording will be saved as `test_recording.mp4`.
+   - The final output screenshot will be saved as `final_output.png` in the `Automate_Testing` folder.
+
 
 
