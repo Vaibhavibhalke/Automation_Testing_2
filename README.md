@@ -34,7 +34,7 @@ In this project, we developed a Python script that automates interactions with a
 
 #### Final Output Screenshot
 
-<kbd><img src="C:/Users/HP/Desktop/Automate_Testing/final_output.png" width="800px" alt="Final Output Screenshot"></kbd>
+<kbd><img src="C:/Users/HP/Desktop/Automate_Testing/Final_Output.png" width="800px" alt="Final Output Screenshot"></kbd>
 
 ## Tech Stack
 
